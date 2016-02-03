@@ -1,0 +1,14 @@
+// call new class Tax
+public class Tax {
+//class Tax have 3 parametres
+	double grossImcome;
+	String state;
+	int dependents;
+	
+// class Tax include 1 metods
+	
+	public double calcTax(){
+		return 234.54;
+		
+	}
+}

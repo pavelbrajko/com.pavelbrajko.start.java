@@ -1,0 +1,17 @@
+
+public class TestTax {
+
+	public static void main(String[] args) {
+		Tax t = new Tax();
+		
+		t.grossImcome = 50000;
+		t.dependents = 2;
+		t.state = "NY";
+		
+		double yourTax = t.calcTax();
+		
+		
+		System.out.println("Yiur Tax is: " + yourTax);
+	}
+
+}

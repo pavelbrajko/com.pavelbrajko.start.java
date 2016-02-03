@@ -1,0 +1,15 @@
+// call new class JamesBondCar thet extendes supper class MyCar
+public class JamesBondCar extends MyCar {
+
+	// class include thri
+	int currentSubmergeDepth;
+	boolean isGunOnBoard;
+	final String MANUFACTURER = "DODGE";
+
+void subMerge(){
+	currentSubmergeDepth = 50;
+}
+void surfase () {
+	
+}
+}

@@ -1,0 +1,5 @@
+INDEX VERSION 1.127+D:\ProjectJ\Eclipse\javatraning\.metadata\.plugins\org.eclipse.jdt.core
+2302806407.index
+4034131566.index
+3352537029.index
+2380175872.index

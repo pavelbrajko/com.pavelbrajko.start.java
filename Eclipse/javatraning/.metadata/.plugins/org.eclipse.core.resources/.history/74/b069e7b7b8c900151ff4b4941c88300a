@@ -1,0 +1,18 @@
+
+public class MyTestCar {
+
+	public static void main(String[] args) {
+		MyCar car1 = new MyCar();
+		MyCar car2 = new MyCar();
+
+		car1.color = "blue";
+		car2.color = "red";
+		
+		System.out.println("I've painted cars!");
+		System.out.println("Color of car1 is: " + car1.color);
+		System.out.println("Color of car2 is: " + car2.color);
+		
+		
+	}
+
+}

@@ -1,0 +1,19 @@
+// call new class that incluse main class and extends class Tax
+public class TestTax {
+
+	public static void main(String[] args) {
+		// made new class t in HEAP MEMORY
+		
+		Tax t = new Tax();
+		
+		t.grossInCome = 40000;
+		t.dependents = 2;
+		t.state = "NY";
+		// call param 
+		double yourTax = t.calcTax();
+		
+		
+		System.out.println("Yiur Tax is: " + yourTax);
+	}
+
+}
